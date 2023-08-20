@@ -22,5 +22,8 @@ class ViewController: UIViewController {
     @IBAction func weightSlider(_ sender: UISlider) {
         weightInputUserLabel.text = "\(String(format: "%.0f", sender.value))kg"
     }
+    @IBAction func calculationButton(_ sender: UIButton) {
+        
+    }
 }
 
